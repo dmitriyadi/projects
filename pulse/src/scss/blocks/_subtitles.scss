@@ -1,0 +1,16 @@
+.subtitle {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #0d0d0d;
+    text-align: center;
+    margin-bottom: 0;
+    &_catalog {
+        margin-top: 19px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    &_review {
+        text-align: left;
+    }
+}
