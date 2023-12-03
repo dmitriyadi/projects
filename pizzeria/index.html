@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Лучшая Пиццерия в городе">
+    <meta name="author" content="Roman">
+    <title>Пиццерия</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header_section header_min">
+                <div class="header_logo"><a class="text_logo" href="index.html">Пиццерия Ступино</a></div>
+                <div class="header_icon"><a class="icon" id="menu" href="#">&#9776;</a></div>
+            </div>
+            <div class="header_section calling">
+                <span class="call">Заказать:</span>
+                <div id="number" class="tel"><a href="tel:+7(916)267-09-04">+7(916)267-09-04</a></div>
+            </div>
+            <div class="header_section header_menu responsive" id="nav_section">
+                <div class="header_item"><a class="header_btn" href="index.html">Меню</a></div>
+                <div class="header_item"><a class="header_btn" href="delivery.html">Доставка</a></div>
+                <div class="header_item"><a class="header_btn" href="contacts.html">Контакты</a></div>
+                <div class="header_item"><a class="header_btn" href="about.html">О нас</a></div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="slider">
+                <div class="mySlides fade">
+                    <img class="slide_img" src="./img/slide/slideone.jpg" alt="Slide one">
+                </div>
+                <div class="mySlides fade">
+                    <img class="slide_img" src="./img/slide/slidetwo.jpg" alt="Slide two">
+                </div>
+                <div class="mySlides fade">
+                    <img class="slide_img" src="./img/slide/slidethree.jpg" alt="Slide three">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
+            </div>
+            <h1 class="menu_title">Меню<hr class="hr"></h1>
+            <div class="grid">
+                <div class="grid_item">
+                    <div class="grid_img"><img src="./img/margarita.png" alt="Пицца Маргарита"></div>
+                    <div class="grid_content">
+                        <h2 class="grid_title">Маргарита</h2>
+                        <div class="slider_item">
+                            <div class="slides_margarita fades">
+                                <p class="slide_p">Маленькая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">450 грамм</p>
+                                    <p class="slide_text">350 рублей</p>
+                                </div>
+                            </div>
+                            <div class="slides_margarita fades">
+                                <p class="slide_p">Большая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">900 грамм</p>
+                                    <p class="slide_text">700 рублей</p>
+                                </div>
+                            </div>
+                            <a class="prev_content" onclick="plusSlidesMargarita(-1)">&#10094</a>
+                            <a class="next_content" onclick="plusSlidesMargarita(1)">&#10095</a>
+                        </div>
+                        <p class="content_p">Состав: томатный соус, сыр моцарелла, помидоры, орегано.</p>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_img"><img src="./img/pepperoni.png" alt="Пицца Пепперони"></div>
+                    <div class="grid_content">
+                        <h2 class="grid_title">Пепперони</h2>
+                        <div class="slider_item">
+                            <div class="slides_pepperoni fades">
+                                <p class="slide_p">Маленькая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">450 грамм</p>
+                                    <p class="slide_text">400 рублей</p>
+                                </div>
+                            </div>
+                            <div class="slides_pepperoni fades">
+                                <p class="slide_p">Большая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">900 грамм</p>
+                                    <p class="slide_text">750 рублей</p>
+                                </div>
+                            </div>
+                            <a class="prev_content" onclick="plusSlidesPepperoni(-1)">&#10094</a>
+                            <a class="next_content" onclick="plusSlidesPepperoni(1)">&#10095</a>
+                        </div>
+                        <p class="content_p">Состав: пепперони, моцарелла, томатный соус.</p>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_img"><img src="./img/sicilian.png" alt="Пицца Сицилийская"></div>
+                    <div class="grid_content">
+                        <h2 class="grid_title">Сицилийская</h2>
+                        <div class="slider_item">
+                            <div class="slides_sicilian fades">
+                                <p class="slide_p">Маленькая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">450 грамм</p>
+                                    <p class="slide_text">400 рублей</p>
+                                </div>
+                            </div>
+                            <div class="slides_sicilian fades">
+                                <p class="slide_p">Большая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">900 грамм</p>
+                                    <p class="slide_text">750 рублей</p>
+                                </div>
+                            </div>
+                            <a class="prev_content" onclick="plusSlidesSicilian(-1)">&#10094</a>
+                            <a class="next_content" onclick="plusSlidesSicilian(1)">&#10095</a>
+                        </div>
+                        <p class="content_p">Состав: анчоусы, пармезан, томатный соус, орегано.</p>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_img"><img src="./img/fourcheeses.png" alt="пицца Четыре сыра"></div>
+                    <div class="grid_content">
+                        <h2 class="grid_title">Четыре сыра</h2>
+                        <div class="slider_item">
+                            <div class="slides_fourcheeses fades">
+                                <p class="slide_p">Маленькая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">450 грамм</p>
+                                    <p class="slide_text">450 рублей</p>
+                                </div>
+                            </div>
+                            <div class="slides_fourcheeses fades">
+                                <p class="slide_p">Большая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">900 грамм</p>
+                                    <p class="slide_text">800 рублей</p>
+                                </div>
+                            </div>
+                            <a class="prev_content" onclick="plusSlidesFourcheeses(-1)">&#10094</a>
+                            <a class="next_content" onclick="plusSlidesFourcheeses(1)">&#10095</a>
+                        </div>
+                        <p class="content_p">Состав: томатный соус, фета, пармезан, моцарелла, голубой сыр, орегано.</p>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_img"><img src="./img/satisfying.png" alt="Пицца Сытная"></div>
+                    <div class="grid_content">
+                        <h2 class="grid_title">Сытная</h2>
+                        <div class="slider_item">
+                            <div class="slides_satisfying fades">
+                                <p class="slide_p">Маленькая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">450 грамм</p>
+                                    <p class="slide_text">500 рублей</p>
+                                </div>
+                            </div>
+                            <div class="slides_satisfying fades">
+                                <p class="slide_p">Большая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">900 грамм</p>
+                                    <p class="slide_text">900 рублей</p>
+                                </div>
+                            </div>
+                            <a class="prev_content" onclick="plusSlidesSatisfying(-1)">&#10094</a>
+                            <a class="next_content" onclick="plusSlidesSatisfying(1)">&#10095</a>
+                        </div>
+                        <p class="content_p">Состав: томатный соус, сосиски гриль, маслины, пармезан, соус кари.</p>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_img"><img src="./img/assorted.png" alt="Пицца Ассорти"></div>
+                    <div class="grid_content">
+                        <h2 class="grid_title">Ассорти</h2>
+                        <div class="slider_item">
+                            <div class="slides_assorted fades">
+                                <p class="slide_p">Маленькая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">450 грамм</p>
+                                    <p class="slide_text">450 рублей</p>
+                                </div>
+                            </div>
+                            <div class="slides_assorted fades">
+                                <p class="slide_p">Большая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">900 грамм</p>
+                                    <p class="slide_text">800 рублей</p>
+                                </div>
+                            </div>
+                            <a class="prev_content" onclick="plusSlidesAssorted(-1)">&#10094</a>
+                            <a class="next_content" onclick="plusSlidesAssorted(1)">&#10095</a>
+                        </div>
+                        <p class="content_p">Состав: томатный соус, пепперони, черри, пармезан, белый соус, шампиньоны, ветчина.</p>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_img"><img src="./img/hunting.png" alt="Пицца Охотничья"></div>
+                    <div class="grid_content">
+                        <h2 class="grid_title">Охотничья</h2>
+                        <div class="slider_item">
+                            <div class="slides_hunting fades">
+                                <p class="slide_p">Маленькая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">450 грамм</p>
+                                    <p class="slide_text">500 рублей</p>
+                                </div>
+                            </div>
+                            <div class="slides_hunting fades">
+                                <p class="slide_p">Большая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">900 грамм</p>
+                                    <p class="slide_text">850 рублей</p>
+                                </div>
+                            </div>
+                            <a class="prev_content" onclick="plusSlidesHunting(-1)">&#10094</a>
+                            <a class="next_content" onclick="plusSlidesHunting(1)">&#10095</a>
+                        </div>
+                        <p class="content_p">Состав: томатный соус, охотничьи колбаски, малосольные огурцы, лук, сыр.</p>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_img"><img src="./img/meaty.png" alt="Пицца Мясная"></div>
+                    <div class="grid_content">
+                        <h2 class="grid_title">Мясная</h2>
+                        <div class="slider_item">
+                            <div class="slides_meaty fades">
+                                <p class="slide_p">Маленькая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">450 грамм</p>
+                                    <p class="slide_text">450 рублей</p>
+                                </div>
+                            </div>
+                            <div class="slides_meaty fades">
+                                <p class="slide_p">Большая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">900 грамм</p>
+                                    <p class="slide_text">800 рублей</p>
+                                </div>
+                            </div>
+                            <a class="prev_content" onclick="plusSlidesMeaty(-1)">&#10094</a>
+                            <a class="next_content" onclick="plusSlidesMeaty(1)">&#10095</a>
+                        </div>
+                        <p class="content_p">Состав: томатный соус, пепперони, ветчина, бекон, филе грудки, сыр.</p>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_img"><img src="./img/vegetarian.png" alt="Пицца Вегетарианская"></div>
+                    <div class="grid_content">
+                        <h2 class="grid_title">Вегетарианская</h2>
+                        <div class="slider_item">
+                            <div class="slides_vegetarian fades">
+                                <p class="slide_p">Маленькая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">450 грамм</p>
+                                    <p class="slide_text">400 рублей</p>
+                                </div>
+                            </div>
+                            <div class="slides_vegetarian fades">
+                                <p class="slide_p">Большая</p>
+                                <div class="slide_text_row">
+                                    <p class="slide_text">900 грамм</p>
+                                    <p class="slide_text">750 рублей</p>
+                                </div>
+                            </div>
+                            <a class="prev_content" onclick="plusSlidesVegetarian(-1)">&#10094</a>
+                            <a class="next_content" onclick="plusSlidesVegetarian(1)">&#10095</a>
+                        </div>
+                        <p class="content_p">Состав: томатный соус, маслины, цветная капуста, помидоры, красный перец.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            Автор проекта <a class="footer_text" href="https://vk.com/wirsix">Дмитрияди Роман</a>(с) 2022
+        </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
