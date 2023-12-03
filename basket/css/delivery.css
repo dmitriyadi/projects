@@ -1,0 +1,130 @@
+.delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+.delivery__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.delivery__point {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 21px; 
+}
+.delivery__descr {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+.delivery__descr-box {
+    display: flex;
+}
+.delivery__rating-icon {
+    margin-top: 1px;
+    width: 12px;
+    height: 13px;
+    border: none;
+    background: url(../icons/delivery/rating_star.svg) center center/cover no-repeat;
+}
+.delivery__rating-number {
+    margin-left: 4px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+}
+.delivery__point-text {
+    margin-left: 8px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+}
+.delivery__price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 19px;
+}
+.delivery__descr-price {
+    line-height: 25px;
+    margin-bottom: 0;
+}
+.delivery__dates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 18px;
+}
+.delivery__date {
+    margin-bottom: 24px;
+}
+.delivery__date:last-child {
+    margin-bottom: 0;
+}
+.delivery__date-imgs {
+    display: flex;
+    margin-top: 15px;
+}
+.delivery__date-img {
+    position: relative;
+    width: 40.925px;
+    margin-right: 8px;
+}
+.delivery__date-img img {
+    width: 100%;
+}
+.delivery__icon-amount {
+    position: absolute;
+    display: inline-block;
+    min-width: 5px;
+    height: 15px;
+    top: -8px;
+    right: -2px;
+    background: #f55123;
+    padding: 0px 5px;
+    border-radius: 16px;
+    /* Текст */
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+}
+.delivery__return {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.delivery__check-mark {
+    width: 22px;
+    height: 23px;
+    margin: 8px;
+    background: url(../icons/delivery/check_mark.svg) center center no-repeat;
+}
+.delivery__return-descr {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.delivery__return-descr a {
+    cursor: default;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(12, 180, 119, 0.2);
+    color: #0CB477;
+    letter-spacing: 0.1px;
+}

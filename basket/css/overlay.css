@@ -1,0 +1,178 @@
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(5, 0, 10, 0.30);
+}
+.modal {
+    display: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    height: 100%;
+    padding: 16px;
+    background-color: #fff;
+}
+.modal__title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+}
+.modal__title {
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.modal__close {
+    display: inline-block;
+    position: relative;
+    right: -8px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.modal__close::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #9d9da5;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+.modal__close::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #9d9da5;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+.modal__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.modal__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.modal__label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal__choice {
+
+}
+.modal__card-icon {
+    margin-left: 8px;
+}
+.modal__card-number {
+    margin-left: 4px;
+}
+.modal__button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    background-color: #CB11AB;
+    /* Текст */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+}
+
+/* Доставка */
+
+.modal__delivery-method {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+.modal__delivery-choice {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #CB11AB;
+}
+.modal__delivery-choice-input {
+ overflow: hidden;
+}
+.modal__delivery-subtitle {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+.modal__delivery-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.modal__delivery-addresses {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.modal__delivery-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+}
+.modal__delivery-point {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+}
+.modal__delivery-descr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+.modal__delivery-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.modal__delivery-point-box {
+    display: flex;
+}
+.modal__delivery-icon-delete {
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    background: url(../icons/goods/delete.svg) center center no-repeat;
+}

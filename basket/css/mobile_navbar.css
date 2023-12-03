@@ -1,0 +1,56 @@
+.mobile-navbar {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    padding: 0 3px;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    z-index: 10;
+}
+.mobile-navbar__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    padding: 10px;
+    cursor: none;
+}
+button.mobile-navbar__link {
+    border: 0;
+    background-color: transparent;
+}
+.mobile-navbar__icon-home {
+    width: 28px;
+    height: 28px;
+    background: url(../icons/mobile/home.svg) center center no-repeat;
+}
+.mobile-navbar__icon-catalog {
+    width: 29px;
+    height: 28px;
+    background: url(../icons/mobile/catalog.svg) center center no-repeat;
+}
+.mobile-navbar__icon-basket {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background: url(../icons/mobile/basket.svg) center center no-repeat;
+}
+.mobile-navbar__icon-favorites {
+    width: 29px;
+    height: 28px;
+    background: url(../icons/mobile/favorites.svg) center center no-repeat;
+}
+.mobile-navbar__icon-profile {
+    width: 28px;
+    height: 28px;
+    background: url(../icons/mobile/profile.svg) center center no-repeat;
+}
+.mobile-navbar__amount {
+    top: -4px;
+    right: -6px;
+    font-weight: 600;
+}

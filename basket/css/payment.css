@@ -1,0 +1,54 @@
+.payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+.payment__title-box {
+    margin-top: 1px;
+    margin-bottom: 13px;
+}
+.payment__card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.payment__card-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 24px;
+    border-radius: 4px;
+    background: #F6F6FA;
+}
+.payment__card-icon img {
+    position: absolute;
+    top: 5;
+    left: 1;
+    display: block;
+    width: 30px;
+}
+.payment__card-number {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    margin-left: 8px;
+}
+.payment__card-number-date {
+    margin: 0;
+    margin-left: 12px;
+}
+.payment__descr {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #9797AF;
+    margin-bottom: 4px;
+}

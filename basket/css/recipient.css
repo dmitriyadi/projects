@@ -1,0 +1,87 @@
+.recipient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+.recipient__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.recipient__form-group {
+    position: relative;
+    width: 100%;
+}
+.recipient__form-input {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    transition: .3s;
+    padding-bottom: 3px;
+    margin-bottom: 47px;
+    z-index: 2;
+}
+.recipient__form-input:focus ~ .recipient__form-label,
+.recipient__form-input:not(:placeholder-shown) ~ .recipient__form-label {
+    top: -19px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    color: #A0A0A4;
+}
+.recipient__form-label {
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    z-index: 1;
+    transition: .3s;
+    /* Текст */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #9797AF;
+}
+
+.recipient__form-tax-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.recipient__form-tax-box input {
+    margin-bottom: 20px;
+}
+.recipient__form-tax-box p {
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+@media (min-width: 768px)  {
+    .recipient__form {
+        max-width: 700px;
+    }
+    .recipient__form-blocks {
+        display: flex;
+        gap: 24px;
+    }
+    /* 
+    .recipient__form-blocks input{
+        flex: 1 0 calc((100% - 2 * 24px) / 3);
+    } */
+/*     .recipient__form-blocks {                Можно сделать и так
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+    } */
+}
